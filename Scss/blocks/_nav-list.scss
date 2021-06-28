@@ -22,6 +22,10 @@
     &:hover{
         color: $color-red;
     }
+
+    &:active{
+        opacity: 0.8;
+    }
 }
 
 @include breakpoint-down(750px){

@@ -587,6 +587,10 @@ img {
   color: #fa5959;
 }
 
+.nav-list__link:active {
+  opacity: 0.8;
+}
+
 @media only screen and (max-width: 750px) {
   .site-nav {
     position: fixed;
@@ -643,6 +647,10 @@ img {
           box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.20012);
   border-radius: 5px;
   border: none;
+}
+
+.button:active {
+  opacity: 0.8;
 }
 
 .button_blue {
