@@ -708,11 +708,11 @@ img {
 
 .mobile-open__button {
   display: none;
-  background-image: url("../../img/hamburger-icon.svg");
+  background-image: url("../img/hamburger-icon.svg");
 }
 
 .mobile-close__button {
-  background-image: url("../../img/site-toggler-close.svg");
+  background-image: url("../img/site-toggler-close.svg");
 }
 
 .mobile-close {
