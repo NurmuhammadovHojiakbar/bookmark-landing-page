@@ -8,3 +8,10 @@
     justify-content: space-between;
     align-items: center;
 }
+
+
+@include breakpoint-down(750px){
+    .site-header__container{
+        @include flex-column;
+    }
+}

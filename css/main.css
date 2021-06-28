@@ -535,6 +535,18 @@ img {
           align-items: center;
 }
 
+@media only screen and (max-width: 750px) {
+  .site-header__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .site-logo {
   display: inline;
   margin-right: 25px;
@@ -573,6 +585,51 @@ img {
 
 .nav-list__link:hover {
   color: #fa5959;
+}
+
+@media only screen and (max-width: 750px) {
+  .site-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(36, 42, 69, 0.95);
+  }
+  .nav-list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .nav-list__item {
+    margin-top: 25px;
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .nav-list__item::before {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #9194a2;
+    margin-bottom: 25px;
+  }
+  .nav-list__link {
+    color: #fff;
+  }
+  .nav-list__link.button {
+    display: block;
+    background-color: transparent;
+    border-color: #fff;
+  }
+  .nav-list__link.button:hover {
+    border-color: #fa5959;
+  }
 }
 
 .button {
@@ -618,5 +675,56 @@ img {
 
 .button_red:hover {
   background-color: transparent;
+}
+
+.mobile-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.mobile-content__button {
+  width: 18px;
+  height: 15px;
+  background: transparent no-repeat center center;
+  background-size: contain;
+  border: none;
+}
+
+.mobile-open__button {
+  display: none;
+  background-image: url("../../img/hamburger-icon.svg");
+}
+
+.mobile-close__button {
+  background-image: url("../../img/site-toggler-close.svg");
+}
+
+.mobile-close {
+  display: none;
+}
+
+@media only screen and (max-width: 750px) {
+  .mobile-content {
+    width: 100%;
+  }
+  .mobile-content__hidden {
+    display: none;
+  }
+  .mobile-open__button {
+    display: block;
+  }
+  .mobile-close {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 50px 25px;
+  }
 }
 /*# sourceMappingURL=main.css.map */

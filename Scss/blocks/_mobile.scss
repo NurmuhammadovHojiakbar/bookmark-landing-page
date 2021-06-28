@@ -1,0 +1,45 @@
+.mobile-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.mobile-content__button{
+    width: 18px;
+    height: 15px;
+    background: transparent no-repeat center center;
+    background-size: contain;
+    border: none;
+}
+
+.mobile-open__button{
+    display: none;
+    background-image: url("../../img/hamburger-icon.svg");
+}
+
+.mobile-close__button{
+    background-image: url("../../img/site-toggler-close.svg");
+}
+
+.mobile-close{
+    display: none;
+}
+
+@include breakpoint-down(750px){
+    
+    .mobile-content{
+        width: 100%;
+    }
+    .mobile-content__hidden{
+        display: none;
+    }
+    .mobile-open__button{
+        display: block;
+    }
+    
+    .mobile-close{
+        display: flex;
+        padding: 50px 25px;
+    }
+}
