@@ -1,0 +1,25 @@
+.nav-list{
+    @include list-unstyled;
+    display: flex;
+    align-items: center;
+    margin-left: -44px;
+}
+
+.nav-list__item{
+    margin-left: 44px;
+}
+
+.nav-list__link{
+    text-decoration: none;
+    color: $color-dodger-blue;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 17px;
+    letter-spacing: 1.5;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+
+    &:hover{
+        color: $color-red;
+    }
+}
