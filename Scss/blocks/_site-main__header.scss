@@ -1,0 +1,24 @@
+.site-main__header{
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    background: url("../img/right-rec.png") no-repeat 100% 100%;
+}
+
+@include breakpoint-down(1125px){
+    .site-main__header{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-position: 100% 30%;
+    }
+}
+@include breakpoint-down(655px){
+    .site-main__header{
+        background-size: 70%;
+    }   
+}
+@include breakpoint-down(500px){
+    .site-main__header{
+        background-position: 100% 20%;
+    }   
+}

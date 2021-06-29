@@ -1,110 +1,110 @@
 @font-face {
-  font-family: 'Rubik';
-  src: url("Rubik-Black.woff2") format("woff2"), url("Rubik-Black.woff") format("woff");
+  font-family: "Rubik";
+  src: url("../fonts/Rubik-Black.woff2") format("woff2"), url("../fonts/Rubik-Black.woff") format("woff");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Rubik';
-  src: url("Rubik-BlackItalic.woff2") format("woff2"), url("Rubik-BlackItalic.woff") format("woff");
+  font-family: "Rubik";
+  src: url("../fonts/Rubik-BlackItalic.woff2") format("woff2"), url("../fonts/Rubik-BlackItalic.woff") format("woff");
   font-weight: 900;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Rubik';
-  src: url("Rubik-Bold.woff2") format("woff2"), url("Rubik-Bold.woff") format("woff");
+  font-family: "Rubik";
+  src: url("../fonts/Rubik-Bold.woff2") format("woff2"), url("../fonts/Rubik-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Rubik';
-  src: url("Rubik-BoldItalic.woff2") format("woff2"), url("Rubik-BoldItalic.woff") format("woff");
+  font-family: "Rubik";
+  src: url("../fonts/Rubik-BoldItalic.woff2") format("woff2"), url("../fonts/Rubik-BoldItalic.woff") format("woff");
   font-weight: bold;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Rubik';
-  src: url("Rubik-ExtraBold.woff2") format("woff2"), url("Rubik-ExtraBold.woff") format("woff");
+  font-family: "Rubik";
+  src: url("../fonts/Rubik-ExtraBold.woff2") format("woff2"), url("../fonts/Rubik-ExtraBold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Rubik';
-  src: url("Rubik-ExtraBoldItalic.woff2") format("woff2"), url("Rubik-ExtraBoldItalic.woff") format("woff");
+  font-family: "Rubik";
+  src: url("../fonts/Rubik-ExtraBoldItalic.woff2") format("woff2"), url("../fonts/Rubik-ExtraBoldItalic.woff") format("woff");
   font-weight: bold;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Rubik';
-  src: url("Rubik-Italic.woff2") format("woff2"), url("Rubik-Italic.woff") format("woff");
+  font-family: "Rubik";
+  src: url("../fonts/Rubik-Italic.woff2") format("woff2"), url("../fonts/Rubik-Italic.woff") format("woff");
   font-weight: normal;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Rubik';
-  src: url("Rubik-Light.woff2") format("woff2"), url("Rubik-Light.woff") format("woff");
+  font-family: "Rubik";
+  src: url("../fonts/Rubik-Light.woff2") format("woff2"), url("../fonts/Rubik-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Rubik';
-  src: url("Rubik-LightItalic.woff2") format("woff2"), url("Rubik-LightItalic.woff") format("woff");
+  font-family: "Rubik";
+  src: url("../fonts/Rubik-LightItalic.woff2") format("woff2"), url("../fonts/Rubik-LightItalic.woff") format("woff");
   font-weight: 300;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Rubik';
-  src: url("Rubik-Medium.woff2") format("woff2"), url("Rubik-Medium.woff") format("woff");
+  font-family: "Rubik";
+  src: url("../fonts/Rubik-Medium.woff2") format("woff2"), url("../fonts/Rubik-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Rubik';
-  src: url("Rubik-MediumItalic.woff2") format("woff2"), url("Rubik-MediumItalic.woff") format("woff");
+  font-family: "Rubik";
+  src: url("../fonts/Rubik-MediumItalic.woff2") format("woff2"), url("../fonts/Rubik-MediumItalic.woff") format("woff");
   font-weight: 500;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Rubik';
-  src: url("Rubik-Regular.woff2") format("woff2"), url("Rubik-Regular.woff") format("woff");
+  font-family: "Rubik";
+  src: url("../fonts/Rubik-Regular.woff2") format("woff2"), url("../fonts/Rubik-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Rubik';
-  src: url("Rubik-SemiBoldItalic.woff2") format("woff2"), url("Rubik-SemiBoldItalic.woff") format("woff");
+  font-family: "Rubik";
+  src: url("../fonts/Rubik-SemiBoldItalic.woff2") format("woff2"), url("../fonts/Rubik-SemiBoldItalic.woff") format("woff");
   font-weight: 600;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Rubik';
-  src: url("Rubik-SemiBold.woff2") format("woff2"), url("Rubik-SemiBold.woff") format("woff");
+  font-family: "Rubik";
+  src: url("../fonts/Rubik-SemiBold.woff2") format("woff2"), url("../fonts/Rubik-SemiBold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -686,6 +686,23 @@ img {
   background-color: transparent;
 }
 
+.button_grey {
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: #f7f7f7;
+  color: #5B6074;
+  -webkit-box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.20012);
+          box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.20012);
+  border: 2px solid #f7f7f7;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.button_grey:hover {
+  border-color: #5B6074;
+  background-color: transparent;
+}
+
 .mobile-content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -734,6 +751,108 @@ img {
     display: -ms-flexbox;
     display: flex;
     padding: 50px 25px;
+  }
+}
+
+.site-main__header {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: url("../img/right-rec.png") no-repeat 100% 100%;
+}
+
+@media only screen and (max-width: 1125px) {
+  .site-main__header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-position: 100% 30%;
+  }
+}
+
+@media only screen and (max-width: 655px) {
+  .site-main__header {
+    background-size: 70%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .site-main__header {
+    background-position: 100% 20%;
+  }
+}
+
+.main-header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-header__container-text {
+  max-width: 550px;
+  margin-right: 65px;
+}
+
+.main-header__container-text .button_blue {
+  margin-right: 16px;
+}
+
+.main-header__container-caption {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 52px;
+  letter-spacing: -0.15px;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+.main-header__container-paragraph {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.site-paragraph {
+  font-size: 18px;
+  line-height: 28px;
+  opacity: 0.5;
+}
+
+@media only screen and (max-width: 1125px) {
+  .main-header__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main-header__container-img {
+    margin-bottom: 100px;
+  }
+  .main-header__container-text {
+    text-align: center;
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 655px) {
+  .main-header__container-caption {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .main-header__container-text {
+    margin-bottom: -25px;
+  }
+  .main-header__container-text .button {
+    display: block;
+    margin-bottom: 25px;
+    margin-right: 0;
   }
 }
 /*# sourceMappingURL=main.css.map */
