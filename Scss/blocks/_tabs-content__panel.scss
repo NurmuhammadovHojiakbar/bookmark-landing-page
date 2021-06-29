@@ -1,0 +1,66 @@
+.tabs-content__panel{
+    background: url("../img/left-rec.png") no-repeat 0% 100%;
+    padding-top: 70px;
+    padding-bottom: 90px;
+}
+
+.tabs-content__panel-container{
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+
+    &-active{
+        display: flex;
+    }
+}
+
+.tabs-content__panel-text{
+    max-width: 450px;
+    margin-left: 25px;
+}
+
+.tabs-content__panel-title{
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.tabs-content__panel-paragraph{
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+
+
+@include breakpoint-down(1125px){
+    .tabs-content__panel{
+        background-position: 0% 25%;
+    }
+    .tabs-content__panel-container{
+        flex-direction: column;
+
+        img{
+            margin-bottom: 70px;
+        }
+    }
+
+    .tabs-content__panel-text{
+        text-align: center;
+        margin-left: 0;
+    }
+}
+
+@include breakpoint-down(655px){
+    .tabs-content__panel{
+        background-size: 95%;
+        background-position: 0% 30%;
+    }
+}
+@include breakpoint-down(500px){
+    .tabs-content__panel{
+        background-size: 90%;
+        background-position: 0% 25%;
+
+        .button{
+            display: none;
+        }
+    }
+}
