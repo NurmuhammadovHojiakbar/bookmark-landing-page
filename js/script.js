@@ -40,3 +40,22 @@ if(elTabsLink.length > 0){
 
     })
 }
+
+
+const elQuestion = document.querySelectorAll(".question__link")
+const elQuestionText = document.querySelectorAll(".question__text")
+
+if(elQuestion.length > 0){
+    elQuestion.forEach(question =>{
+        question.addEventListener("click", function(evt){
+            evt.preventDefault();
+
+            elQuestionText.forEach(function(textremove){
+                textremove.classList.remove("question__text-active")
+            })
+
+            question.nextElementSibling.classList.add("question__text-active")
+            
+        })
+    })
+}
