@@ -1020,4 +1020,105 @@ img {
     display: block;
   }
 }
+
+.extension {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.extension-header {
+  max-width: 590px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+.extension-title {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.extenjsion-paragraph {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.extension-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.extension-card {
+  position: relative;
+  width: 270px;
+  padding-top: 50px;
+  padding-bottom: 25px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 10px 20px -5px rgba(73, 93, 207, 0.20012);
+          box-shadow: 0px 10px 20px -5px rgba(73, 93, 207, 0.20012);
+  border-radius: 15px;
+  text-align: center;
+}
+
+.extension-card:not(:last-child) {
+  margin-right: 34px;
+}
+
+.extension-card img {
+  margin-bottom: 32px;
+}
+
+.card-title {
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 0;
+  margin-bottom: 6px;
+}
+
+.card-paragraph {
+  position: relative;
+  font-size: 15px;
+  line-height: 28px;
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+.card-paragraph::after {
+  display: block;
+  content: "";
+  width: 100%;
+  border-top: 4px dotted rgba(73, 93, 207, 0.20012);
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+
+.card-firefox {
+  top: 40px;
+}
+
+.card-opera {
+  top: 80px;
+}
+
+@media only screen and (max-width: 640px) {
+  .extension-cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .extension-card:not(:last-child) {
+    margin-right: 0;
+  }
+}
 /*# sourceMappingURL=main.css.map */
