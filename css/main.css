@@ -1154,6 +1154,12 @@ img {
   text-align: center;
 }
 
+@media only screen and (max-width: 500px) {
+  .more-info__container .button {
+    display: block;
+  }
+}
+
 .question__list {
   width: 100%;
   max-width: 570px;
